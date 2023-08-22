@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-22T19:30:52 IST" name="Default suite" finished-at="2023-08-22T19:31:00 IST" duration-ms="7420">
+  <suite started-at="2023-08-22T20:17:38 IST" name="Default suite" finished-at="2023-08-22T20:17:50 IST" duration-ms="11188">
     <groups>
     </groups>
-    <test started-at="2023-08-22T19:30:52 IST" name="Default test" finished-at="2023-08-22T19:31:00 IST" duration-ms="7420">
-      <class name="CTtest">
-        <test-method signature="check1()[pri:0, instance:CTtest@363ee3a2]" started-at="2023-08-22T19:30:53 IST" name="check1" finished-at="2023-08-22T19:31:00 IST" duration-ms="7367" status="PASS">
+    <test started-at="2023-08-22T20:17:38 IST" name="Default test" finished-at="2023-08-22T20:17:50 IST" duration-ms="11188">
+      <class name="CTtest.Test1">
+        <test-method signature="check1()[pri:0, instance:CTtest.Test1@2ea227af]" started-at="2023-08-22T20:17:38 IST" name="check1" finished-at="2023-08-22T20:17:50 IST" duration-ms="11150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check1 -->
-      </class> <!-- CTtest -->
+      </class> <!-- CTtest.Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
