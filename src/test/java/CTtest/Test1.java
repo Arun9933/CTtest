@@ -1,4 +1,4 @@
-package CTtest;
+ package CTtest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,13 +12,7 @@ public class Test1 {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ARUN\\drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-		
-//		System.setProperty("webdriver.gecko.driver", "C:\\Users\\ARUN\\drivers\\geckodriver.exe");
-//		WebDriver driver = new FirefoxDriver();
-		
-       
 
-        //WebDriver driver = new ChromeDriver();
         driver.get("http://localhost:8080/testapp/");  // Replace with your web app URL
 
         Thread.sleep(5000);
