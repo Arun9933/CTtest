@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="Test1Suite">
+        <classes>
+            <class name="CTtest.Test1"/> <!-- Add your test class here -->
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.XMLReporter" />
+    </listeners>
+</suite>
