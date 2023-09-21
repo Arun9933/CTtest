@@ -70,8 +70,8 @@ public class Test3 {
         Thread.sleep(1000);
 
         // Add assertion to validate theme change (non-critical functionality)
-//        WebElement body = driver.findElement(By.tagName("body"));
-//        assertEquals("dark-theme", body.getAttribute("class"));
+        WebElement body = driver.findElement(By.tagName("body"));
+        assertEquals("dark-theme", body.getAttribute("class"));
     }
 
 
