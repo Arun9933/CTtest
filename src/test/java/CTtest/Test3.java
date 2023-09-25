@@ -56,7 +56,7 @@ public class Test3 {
 
         // Assertion for successful login
         WebElement welcomeMessage = driver.findElement(By.tagName("h1"));
-        assertEquals("Welcome To Bamb", welcomeMessage.getText());
+        assertEquals("Welcome To Bamboo", welcomeMessage.getText());
     }
     
     
