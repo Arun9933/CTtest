@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.128 s <<< FAILURE! - in TestSuite
-CTtest.Test3.changeTheme  Time elapsed: 1.16 s  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.24 s <<< FAILURE! - in TestSuite
+CTtest.Test3.changeTheme  Time elapsed: 1.203 s  <<< FAILURE!
 java.lang.AssertionError: expected [] but found [dark-theme]
 	at CTtest.Test3.changeTheme(Test3.java:74)
 

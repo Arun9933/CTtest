@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-21T10:19:47Z" name="MyTestSuite" finished-at="2023-09-21T10:19:59Z" duration-ms="11778">
+  <suite started-at="2023-09-25T04:51:52Z" name="MyTestSuite" finished-at="2023-09-25T04:52:05Z" duration-ms="12834">
     <groups>
     </groups>
-    <test started-at="2023-09-21T10:19:47Z" name="Test1Suite" finished-at="2023-09-21T10:19:59Z" duration-ms="11778">
+    <test started-at="2023-09-25T04:51:52Z" name="Test1Suite" finished-at="2023-09-25T04:52:05Z" duration-ms="12834">
       <class name="CTtest.Test3">
-        <test-method is-config="true" signature="setup()[pri:0, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-21T10:19:47Z" name="setup" finished-at="2023-09-21T10:19:49Z" duration-ms="2042" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-25T04:51:52Z" name="setup" finished-at="2023-09-25T04:51:55Z" duration-ms="3004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerUser()[pri:1, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-21T10:19:49Z" name="registerUser" description="Critical Functionality: User Registration" finished-at="2023-09-21T10:19:54Z" duration-ms="4409" status="PASS">
+        <test-method signature="registerUser()[pri:1, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-25T04:51:55Z" name="registerUser" description="Critical Functionality: User Registration" finished-at="2023-09-25T04:52:00Z" duration-ms="4441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUser -->
-        <test-method signature="loginUser()[pri:2, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-21T10:19:54Z" name="loginUser" description="Critical Functionality: User Login" finished-at="2023-09-21T10:19:57Z" duration-ms="3312" status="PASS">
+        <test-method signature="loginUser()[pri:2, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-25T04:52:00Z" name="loginUser" description="Critical Functionality: User Login" finished-at="2023-09-25T04:52:03Z" duration-ms="3293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUser -->
-        <test-method signature="changeTheme()[pri:3, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-21T10:19:57Z" name="changeTheme" description="NonCr Functionality: Change Theme" finished-at="2023-09-21T10:19:58Z" duration-ms="1156" status="FAIL">
+        <test-method signature="changeTheme()[pri:3, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-25T04:52:03Z" name="changeTheme" description="NonCr Functionality: Change Theme" finished-at="2023-09-25T04:52:04Z" duration-ms="1200" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [] but found [dark-theme]]]>
@@ -68,11 +68,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeTheme -->
-        <test-method signature="userProfileUpdate()[pri:4, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-21T10:19:58Z" name="userProfileUpdate" description="NonCr Functionality: User Profile Update" finished-at="2023-09-21T10:19:58Z" duration-ms="199" status="PASS">
+        <test-method signature="userProfileUpdate()[pri:4, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-25T04:52:04Z" name="userProfileUpdate" description="NonCr Functionality: User Profile Update" finished-at="2023-09-25T04:52:04Z" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userProfileUpdate -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-21T10:19:58Z" name="tearDown" finished-at="2023-09-21T10:19:59Z" duration-ms="640" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CTtest.Test3@4ae3c1cd]" started-at="2023-09-25T04:52:04Z" name="tearDown" finished-at="2023-09-25T04:52:05Z" duration-ms="679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
