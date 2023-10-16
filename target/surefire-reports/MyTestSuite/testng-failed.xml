@@ -10,7 +10,10 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="registerUser"/>
+          <include name="userProfileUpdate"/>
           <include name="changeTheme"/>
+          <include name="loginUser"/>
         </methods>
       </class> <!-- CTtest.Test3 -->
     </classes>

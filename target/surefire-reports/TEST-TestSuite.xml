@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.24" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.196" tests="6" errors="0" skipped="5" failures="1">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="C:\Users\ARUN\drivers\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\ARUN\AppData\Local\Temp\surefire11750129606790997616\surefirebooter1386766677218150266.jar C:\Users\ARUN\AppData\Local\Temp\surefire11750129606790997616 2023-09-25T10-21-51_786-jvmRun1 surefire16117446693503944719tmp surefire_010472540425198048937tmp"/>
+    <property name="sun.java.command" value="C:\Users\ARUN\AppData\Local\Temp\surefire11816801052046392246\surefirebooter2418165844668995948.jar C:\Users\ARUN\AppData\Local\Temp\surefire11816801052046392246 2023-10-16T12-24-39_471-jvmRun1 surefire915214106639922494tmp surefire_015522305970204968702tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\FunctionalTesting\target\test-classes;D:\FunctionalTesting\target\classes;C:\Users\ARUN\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ARUN\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ARUN\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ARUN\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ARUN\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ARUN\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ARUN\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ARUN\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ARUN\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ARUN\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ARUN\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ARUN\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ARUN\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ARUN\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ARUN\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ARUN\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ARUN\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ARUN\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ARUN\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ARUN\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ARUN\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.1\webdrivermanager-5.1.1.jar;C:\Users\ARUN\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ARUN\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ARUN\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ARUN\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ARUN\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ARUN\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ARUN\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ARUN\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ARUN\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ARUN\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ARUN\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ARUN\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ARUN\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ARUN\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ARUN\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ARUN\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ARUN\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ARUN\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ARUN\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\ARUN\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\ARUN\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\ARUN\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ARUN\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\ARUN\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ARUN\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ARUN\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\ARUN\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ARUN\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ARUN\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ARUN\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ARUN\AppData\Local\Temp\surefire11750129606790997616\surefirebooter1386766677218150266.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ARUN\AppData\Local\Temp\surefire11816801052046392246\surefirebooter2418165844668995948.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -56,20 +56,56 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="registerUser" classname="CTtest.Test3" time="4.423">
-    <system-err><![CDATA[Starting ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382}) on port 18777
+  <testcase name="setup" classname="CTtest.Test3" time="2.025">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 116&#10;Current browser version is 118.0.5993.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-6COU3AKC&apos;, ip: &apos;192.168.174.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x00007FF762A052A2+57122]&#10;	(No symbol) [0x00007FF76297EA92]&#10;	(No symbol) [0x00007FF76284E3AB]&#10;	(No symbol) [0x00007FF762879FF5]&#10;	(No symbol) [0x00007FF762875237]&#10;	(No symbol) [0x00007FF762872FE1]&#10;	(No symbol) [0x00007FF7628AEA4F]&#10;	(No symbol) [0x00007FF7628AE5B0]&#10;	(No symbol) [0x00007FF7628A6DB3]&#10;	(No symbol) [0x00007FF76287D2B1]&#10;	(No symbol) [0x00007FF76287E494]&#10;	GetHandleVerifier [0x00007FF762CAEF82+2849794]&#10;	GetHandleVerifier [0x00007FF762D01D24+3189156]&#10;	GetHandleVerifier [0x00007FF762CFACAF+3160367]&#10;	GetHandleVerifier [0x00007FF762A96D06+653702]&#10;	(No symbol) [0x00007FF76298A208]&#10;	(No symbol) [0x00007FF7629862C4]&#10;	(No symbol) [0x00007FF7629863F6]&#10;	(No symbol) [0x00007FF7629767A3]&#10;	BaseThreadInitThunk [0x00007FFF1D92257D+29]&#10;	RtlUserThreadStart [0x00007FFF1E58AA68+40]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 116
+Current browser version is 118.0.5993.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6COU3AKC', ip: '192.168.174.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF762A052A2+57122]
+	(No symbol) [0x00007FF76297EA92]
+	(No symbol) [0x00007FF76284E3AB]
+	(No symbol) [0x00007FF762879FF5]
+	(No symbol) [0x00007FF762875237]
+	(No symbol) [0x00007FF762872FE1]
+	(No symbol) [0x00007FF7628AEA4F]
+	(No symbol) [0x00007FF7628AE5B0]
+	(No symbol) [0x00007FF7628A6DB3]
+	(No symbol) [0x00007FF76287D2B1]
+	(No symbol) [0x00007FF76287E494]
+	GetHandleVerifier [0x00007FF762CAEF82+2849794]
+	GetHandleVerifier [0x00007FF762D01D24+3189156]
+	GetHandleVerifier [0x00007FF762CFACAF+3160367]
+	GetHandleVerifier [0x00007FF762A96D06+653702]
+	(No symbol) [0x00007FF76298A208]
+	(No symbol) [0x00007FF7629862C4]
+	(No symbol) [0x00007FF7629863F6]
+	(No symbol) [0x00007FF7629767A3]
+	BaseThreadInitThunk [0x00007FFF1D92257D+29]
+	RtlUserThreadStart [0x00007FFF1E58AA68+40]
+
+	at CTtest.Test3.setup(Test3.java:19)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382}) on port 35788
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2023 10:21:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginUser" classname="CTtest.Test3" time="3.293"/>
-  <testcase name="changeTheme" classname="CTtest.Test3" time="1.203">
-    <failure message="expected [] but found [dark-theme]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [] but found [dark-theme]
-	at CTtest.Test3.changeTheme(Test3.java:74)
-]]></failure>
+  <testcase name="registerUser" classname="CTtest.Test3" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 116&#10;Current browser version is 118.0.5993.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-6COU3AKC&apos;, ip: &apos;192.168.174.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x00007FF762A052A2+57122]&#10;	(No symbol) [0x00007FF76297EA92]&#10;	(No symbol) [0x00007FF76284E3AB]&#10;	(No symbol) [0x00007FF762879FF5]&#10;	(No symbol) [0x00007FF762875237]&#10;	(No symbol) [0x00007FF762872FE1]&#10;	(No symbol) [0x00007FF7628AEA4F]&#10;	(No symbol) [0x00007FF7628AE5B0]&#10;	(No symbol) [0x00007FF7628A6DB3]&#10;	(No symbol) [0x00007FF76287D2B1]&#10;	(No symbol) [0x00007FF76287E494]&#10;	GetHandleVerifier [0x00007FF762CAEF82+2849794]&#10;	GetHandleVerifier [0x00007FF762D01D24+3189156]&#10;	GetHandleVerifier [0x00007FF762CFACAF+3160367]&#10;	GetHandleVerifier [0x00007FF762A96D06+653702]&#10;	(No symbol) [0x00007FF76298A208]&#10;	(No symbol) [0x00007FF7629862C4]&#10;	(No symbol) [0x00007FF7629863F6]&#10;	(No symbol) [0x00007FF7629767A3]&#10;	BaseThreadInitThunk [0x00007FFF1D92257D+29]&#10;	RtlUserThreadStart [0x00007FFF1E58AA68+40]&#10;"/>
   </testcase>
-  <testcase name="userProfileUpdate" classname="CTtest.Test3" time="0.192"/>
+  <testcase name="loginUser" classname="CTtest.Test3" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 116&#10;Current browser version is 118.0.5993.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-6COU3AKC&apos;, ip: &apos;192.168.174.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x00007FF762A052A2+57122]&#10;	(No symbol) [0x00007FF76297EA92]&#10;	(No symbol) [0x00007FF76284E3AB]&#10;	(No symbol) [0x00007FF762879FF5]&#10;	(No symbol) [0x00007FF762875237]&#10;	(No symbol) [0x00007FF762872FE1]&#10;	(No symbol) [0x00007FF7628AEA4F]&#10;	(No symbol) [0x00007FF7628AE5B0]&#10;	(No symbol) [0x00007FF7628A6DB3]&#10;	(No symbol) [0x00007FF76287D2B1]&#10;	(No symbol) [0x00007FF76287E494]&#10;	GetHandleVerifier [0x00007FF762CAEF82+2849794]&#10;	GetHandleVerifier [0x00007FF762D01D24+3189156]&#10;	GetHandleVerifier [0x00007FF762CFACAF+3160367]&#10;	GetHandleVerifier [0x00007FF762A96D06+653702]&#10;	(No symbol) [0x00007FF76298A208]&#10;	(No symbol) [0x00007FF7629862C4]&#10;	(No symbol) [0x00007FF7629863F6]&#10;	(No symbol) [0x00007FF7629767A3]&#10;	BaseThreadInitThunk [0x00007FFF1D92257D+29]&#10;	RtlUserThreadStart [0x00007FFF1E58AA68+40]&#10;"/>
+  </testcase>
+  <testcase name="changeTheme" classname="CTtest.Test3" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 116&#10;Current browser version is 118.0.5993.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-6COU3AKC&apos;, ip: &apos;192.168.174.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x00007FF762A052A2+57122]&#10;	(No symbol) [0x00007FF76297EA92]&#10;	(No symbol) [0x00007FF76284E3AB]&#10;	(No symbol) [0x00007FF762879FF5]&#10;	(No symbol) [0x00007FF762875237]&#10;	(No symbol) [0x00007FF762872FE1]&#10;	(No symbol) [0x00007FF7628AEA4F]&#10;	(No symbol) [0x00007FF7628AE5B0]&#10;	(No symbol) [0x00007FF7628A6DB3]&#10;	(No symbol) [0x00007FF76287D2B1]&#10;	(No symbol) [0x00007FF76287E494]&#10;	GetHandleVerifier [0x00007FF762CAEF82+2849794]&#10;	GetHandleVerifier [0x00007FF762D01D24+3189156]&#10;	GetHandleVerifier [0x00007FF762CFACAF+3160367]&#10;	GetHandleVerifier [0x00007FF762A96D06+653702]&#10;	(No symbol) [0x00007FF76298A208]&#10;	(No symbol) [0x00007FF7629862C4]&#10;	(No symbol) [0x00007FF7629863F6]&#10;	(No symbol) [0x00007FF7629767A3]&#10;	BaseThreadInitThunk [0x00007FFF1D92257D+29]&#10;	RtlUserThreadStart [0x00007FFF1E58AA68+40]&#10;"/>
+  </testcase>
+  <testcase name="userProfileUpdate" classname="CTtest.Test3" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 116&#10;Current browser version is 118.0.5993.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-6COU3AKC&apos;, ip: &apos;192.168.174.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x00007FF762A052A2+57122]&#10;	(No symbol) [0x00007FF76297EA92]&#10;	(No symbol) [0x00007FF76284E3AB]&#10;	(No symbol) [0x00007FF762879FF5]&#10;	(No symbol) [0x00007FF762875237]&#10;	(No symbol) [0x00007FF762872FE1]&#10;	(No symbol) [0x00007FF7628AEA4F]&#10;	(No symbol) [0x00007FF7628AE5B0]&#10;	(No symbol) [0x00007FF7628A6DB3]&#10;	(No symbol) [0x00007FF76287D2B1]&#10;	(No symbol) [0x00007FF76287E494]&#10;	GetHandleVerifier [0x00007FF762CAEF82+2849794]&#10;	GetHandleVerifier [0x00007FF762D01D24+3189156]&#10;	GetHandleVerifier [0x00007FF762CFACAF+3160367]&#10;	GetHandleVerifier [0x00007FF762A96D06+653702]&#10;	(No symbol) [0x00007FF76298A208]&#10;	(No symbol) [0x00007FF7629862C4]&#10;	(No symbol) [0x00007FF7629863F6]&#10;	(No symbol) [0x00007FF7629767A3]&#10;	BaseThreadInitThunk [0x00007FFF1D92257D+29]&#10;	RtlUserThreadStart [0x00007FFF1E58AA68+40]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="CTtest.Test3" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
